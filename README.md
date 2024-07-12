@@ -37,7 +37,8 @@ O Sistema de Controle de Clientes e Entregas é uma aplicação front-end desenv
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-## Docker 
+## Docker Compose
+
 version: '3.8'
 services:
   frontend:

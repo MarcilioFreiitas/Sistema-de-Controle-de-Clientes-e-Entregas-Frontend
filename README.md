@@ -28,14 +28,10 @@ O Sistema de Controle de Clientes e Entregas é uma aplicação front-end desenv
 
 ## Como Executar o Projeto ▶️
 
-1. Clone este repositório.
-2. Instale as dependências usando `npm install`.
-3. Execute o servidor de desenvolvimento com `ng serve`.
+1. Baixe o docker e instale em sua máquina.
+2. clone a imagem do projeto no docker.hub.
+3. Execute a imagem do projeto no contêiner.
 4. Acesse a aplicação em `http://localhost:4200`.
-
-## Contribuição 🤝
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
 ## Docker Compose
 
@@ -67,6 +63,10 @@ Acesse a aplicação em `http://localhost:4200`
 ## Cadastro de clientes
 ![Captura de tela 2024-07-11 175335](https://github.com/user-attachments/assets/b4e8c27b-217e-41cd-877e-9e286fbe10b0)
 
+
+## Contribuição 🤝
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 

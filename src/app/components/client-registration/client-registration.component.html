@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Clientes</title>
+  </head>
+  <body style="background-image: url('assets/rota.jpg')">
+    <div class="form-container">
+      <form (ngSubmit)="onSubmit()">
+        <h3>Cadastro de Cliente</h3>
+        <label for="codigo">Código</label>
+        <input
+          type="text"
+          [(ngModel)]="formValues.codigo"
+          name="codigo"
+          required
+        />
+        <label for="nome">Nome</label>
+        <input type="text" [(ngModel)]="formValues.nome" name="nome" required />
+        <label for="cnpj">CNPJ (14 dígitos)</label>
+        <input type="text" [(ngModel)]="formValues.cnpj" name="cnpj" required />
+        <label for="rua">Rua</label>
+        <input type="text" [(ngModel)]="formValues.rua" name="rua" required />
+        <label for="numero">Número</label>
+        <input
+          type="text"
+          [(ngModel)]="formValues.numero"
+          name="numero"
+          required
+        />
+        <label for="cidade">Cidade</label>
+        <input
+          type="text"
+          [(ngModel)]="formValues.cidade"
+          name="cidade"
+          required
+        />
+        <label for="estado">Estado</label>
+        <input
+          type="text"
+          [(ngModel)]="formValues.estado"
+          name="estado"
+          required
+        />
+        <label for="cep">CEP</label>
+        <input type="text" [(ngModel)]="formValues.cep" name="cep" required />
+        <button type="submit">Cadastrar</button>
+        <button class="back-button" routerLink="/home">
+          Voltar à página inicial
+        </button>
+        <div
+          *ngIf="
+            !formValues.codigo ||
+            !formValues.nome ||
+            !formValues.cnpj ||
+            !formValues.rua ||
+            !formValues.numero ||
+            !formValues.cidade ||
+            !formValues.estado ||
+            !formValues.cep
+          "
+        >
+          <p style="color: red">Preencha todos os campos!</p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+#map {
+  height: 900px; /* Defina a altura desejada */
+  width: 100%; /* Defina a largura desejada */
+}
+.back-button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #e4dddd;
+  color: rgb(14, 13, 13);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer; /* Adicione o espaçamento desejado */
+}
+button:hover {
+  background-color: #ffffff; /* Cor ao passar o mouse */
+}

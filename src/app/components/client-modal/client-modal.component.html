@@ -1,0 +1,13 @@
+<!-- client-modal.component.html -->
+<div class="modal" *ngIf="modalAberto">
+  <div class="modal-content">
+    <span class="fechar" (click)="fecharModal()">×</span>
+    <h2>Informações do Cliente</h2>
+    <p><strong>Nome:</strong> {{ cliente?.nome }}</p>
+    <p>
+      <strong>Endereço:</strong> {{ cliente?.endereco?.rua }},
+      {{ cliente?.endereco?.numero }}
+    </p>
+    <!-- Adicione outros campos conforme necessário -->
+  </div>
+</div>

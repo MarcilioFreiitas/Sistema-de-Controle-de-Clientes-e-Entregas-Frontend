@@ -1,6 +1,3 @@
-Claro! Vou criar uma descrição inicial para o arquivo `README.md` do seu projeto front-end desenvolvido em Angular. Lembre-se de personalizar e expandir essa descrição conforme necessário:
-
----
 
 # Sistema de Controle de Clientes e Entregas (Front-End) 🚀
 

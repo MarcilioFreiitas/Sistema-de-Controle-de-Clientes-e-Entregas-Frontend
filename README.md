@@ -37,7 +37,21 @@ O Sistema de Controle de Clientes e Entregas é uma aplicação front-end desenv
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
----
+## Docker 
+version: '3.8'
+services:
+  frontend:
+    image: marcilio777/maximatech:frontend
+    ports:
+      - "4200:80"
+  backend:
+    image: marcilio777/maximatech:backend
+    ports:
+      - "8080:8080"
+
+https://hub.docker.com/repository/docker/marcilio777/maximatech/general
+
+Acesse a aplicação em `http://localhost:4200`
 
 Lembre-se de adaptar essa descrição conforme o contexto do seu projeto. Se precisar de mais detalhes ou tiver outras dúvidas, estou à disposição! 😊🚀
 

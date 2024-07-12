@@ -54,7 +54,18 @@ https://hub.docker.com/repository/docker/marcilio777/maximatech/general
 
 Acesse a aplicação em `http://localhost:4200`
 
-Lembre-se de adaptar essa descrição conforme o contexto do seu projeto. Se precisar de mais detalhes ou tiver outras dúvidas, estou à disposição! 😊🚀
+## Imagens 🚀
+
+## Página inicial
+![Captura de tela 2024-07-11 175303](https://github.com/user-attachments/assets/a7a5c0b9-8a2f-415e-92e5-396762eda017)
+
+
+## Mapa de clientes cadastrados
+
+
+## Cadastro de clientes
+![Captura de tela 2024-07-11 175335](https://github.com/user-attachments/assets/b4e8c27b-217e-41cd-877e-9e286fbe10b0)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 

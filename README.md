@@ -61,6 +61,7 @@ Acesse a aplicação em `http://localhost:4200`
 
 
 ## Mapa de clientes cadastrados
+![Captura de tela 2024-07-12 114345](https://github.com/user-attachments/assets/02c4c807-b93d-4784-90ae-2ec08c1ed886)
 
 
 ## Cadastro de clientes

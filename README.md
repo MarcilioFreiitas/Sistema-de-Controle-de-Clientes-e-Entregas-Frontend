@@ -68,6 +68,7 @@ Acesse a aplicação em `http://localhost:4200`
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
+Link do backend: https://github.com/MarcilioFreiitas/Sistema-de-Controle-de-Clientes-e-Entregas/tree/main
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 
 

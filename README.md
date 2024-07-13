@@ -43,12 +43,13 @@ O Sistema de Controle de Clientes e Entregas é uma aplicação front-end desenv
 
 1. Baixe o docker e instale em sua máquina.
 2. clone a imagem do projeto no docker.hub: https://hub.docker.com/repository/docker/marcilio777/maximatech/general.
-3. Execute a imagem do projeto no contêiner.
-4. Acesse a aplicação em `http://localhost:4200`.
+3. Veja as imagens disponíveis em sua máquina com o comando: `docker images`.
+4. Execute a imagem do projeto no contêiner docker com o comando: `docker run nome_da_imagem`.
+5. Acesse a aplicação em `http://localhost:4200`.
 
 ## Docker Compose
 
-version: '3.8'
+`version: '3.8'
 services:
   frontend:
     image: marcilio777/maximatech:frontend
@@ -57,9 +58,9 @@ services:
   backend:
     image: marcilio777/maximatech:backend
     ports:
-      - "8080:8080"
+      - "8080:8080"`
 
-Acesse a aplicação em `http://localhost:4200`
+Acesse a aplicação em: `http://localhost:4200`.
 
 ## Imagens 🚀
 

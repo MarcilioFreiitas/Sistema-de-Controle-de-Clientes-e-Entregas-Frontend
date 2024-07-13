@@ -21,6 +21,22 @@ O Sistema de Controle de Clientes e Entregas é uma aplicação front-end desenv
    - Os clientes cadastrados podem ser visualizados em um mapa interativo.
    - Opções de filtro permitem segmentar os clientes com base em critérios específicos (por exemplo, região, tipo de cliente etc.).
 
+4. **API's usadas** 🗺️:
+   - Google Maps API 🗺️:
+     A Google Maps API é uma ferramenta poderosa para exibir mapas interativos em aplicativos. Ela permite que você mostre 
+     os clientes cadastrados em um mapa, facilitando a visualização e a navegação.
+     Com essa API, você pode personalizar os marcadores, adicionar informações adicionais (como nome do cliente) e até 
+     mesmo 
+     criar rotas de entrega.
+     A integração com a Google Maps API é essencial para fornecer uma experiência visual rica para os usuários.
+   - API de Geocodificação do Google 🌐:
+     Essa API é responsável por converter endereços em coordenadas geográficas (latitude e longitude). Quando um cliente é 
+     cadastrado com um endereço, você pode usar essa API para obter as coordenadas correspondentes.
+     Isso é especialmente útil para preencher automaticamente o formulário com as informações corretas e garantir que os 
+     clientes estejam posicionados corretamente no mapa.
+    - API de clientes 🚀:
+     O sistema possui uma API de clientes para salvar sua informações e guardar no banco de dados da aplicação.
+   
 ## Tecnologias Utilizadas 🛠️
 
 - Angular
